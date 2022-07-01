@@ -52,7 +52,7 @@
     <img src="multimedia/banner.jpg" alt="banner" class="banner">
     </section>
 
-    <main class="main grid-container">
+    <main class="main grid-container container-fluid">
         <section class="main-section1 ">
             <div class="principales">
                 <h2>PUBLICACIONES MAS RECIENTES</h2>
@@ -70,20 +70,37 @@
                         <p class="main__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sit vel sint voluptatibus, doloremque illo dolores voluptas, nihil cum voluptate, qui quis officia? Totam provident omnis perspiciatis a? Corporis, tempore!</p>
                     </div>
                 </div>
-                    <button class="seguir">SEGUIR VIENDO</button>
+                <p>
+                    <a class="btn btn-primary seguir bg-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Seguir viendo
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="articulo">
+                            <img src="multimedia/jake-weirick-pu-PgXMI30I-unsplash.jpg" alt="Jordan retro 3" width="100px" class="main__imagen">
+                            <div class="articulo-text">
+                                <h4 class="subtitulo">ULTIMA TECNOLOGIA EN ADIDAS BASQUET</h4>
+                                <p class="main__parrafo">Adidas quiere innovar cada vez mas en el area del basquet y ocupar un escalon mas en lo que es el terreno de sneakers en la NBA</p> 
+                            </div>          
+                        </div>
+                    <div class="card card-body">
+                      
+                    </div>
+                  </div>
             </div>
         </section>
+        
         <section class="main-section2 ">
-            <div class="ultimos">
+            <div class="ultimos ">
                 <h3>ULTIMOS SNEAKERS</h3>
-                <article>
-                    <img src="multimedia/sneakerhead.jpg" alt="Jordan 1 Travis" class="ultimos__imagen">
-                    <h5 class="ultimos__subtitulo">Jordan 1 Travis</h5>
-                </article>
-                <article>
-                    <img src="multimedia/photo-1595909236612-9fd30b476365.jpg" alt="jordan 1 new year" class="ultimos__imagen">
-                    <h5 class="ultimos__subtitulo">Jordan 1 New Year</h5>
-                </article>
+                <div class="card mb-4 mt-2" style="width: 14rem;">
+                    <img src="multimedia/sneakerhead.jpg" alt="Jordan 1 Travis" class="ultimos__imagen card-img-top">
+                    <h5 class="ultimos__subtitulo card-text mb-3">Jordan 1 Travis</h5>
+                </div>
+                <div class="card" style="width: 14rem;">
+                    <img src="multimedia/photo-1595909236612-9fd30b476365.jpg" alt="jordan 1 new year" class="ultimos__imagen card-img-top">
+                    <h5 class="ultimos__subtitulo card-text mb-3">Jordan 1 New Year</h5>
+                </div>
             </div>
         </section>         
     </main>
@@ -93,34 +110,40 @@
 
 
     <footer class="footer ">
-        <nav class="footer__nav">
-            <div class="footer__contactanos">
-                <h4 class="contactanos">Contactanos</h4>
-                <a href="https://twitter.com/home" target="_blank" class="icono"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://discord.com/" target="_blank" class="icono"><i class="fa-brands fa-discord"></i></a>
-                <a href="https://www.instagram.com/" target="_blank" class="icono"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <div class="footer_copy">
-                <p class="copy">© 2022 SneakerT, Inc. Todos los derechos reservados.</p>
-            </div>
-            <div>
-                <ul class="footer_list">
-                    <li>
-                        <h4 class="footer__acerca">ACERCA DE SNEAKERT</h4>
-                    </li>
-                    <li class="footer__item">
-                        <a href="pages/noticias.html">Noticias</a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="pages/ayuda.html">Ayuda</a>
-                    </li>
-                </ul>
-            </div>
 
-        </nav>
+        <div class="container-fluid">
+            <div class="row p-5 bg-dark text-white d-flex justify-content-between">
+                <div class="col-xs-12 col-md-6 col-lg-3 m-contactanos">
+                    <p class="h3 mb-3">Contactanos</p>   
+                    <div class="mb-3">
+                        <a href="https://twitter.com/home" target="_blank" class="text-secondary h4"><i class="fa-brands fa-twitter"></i></a>
+                    </div>    
+                    <div class="mb-3">
+                        <a href="https://discord.com/" target="_blank" class="text-secondary h4"><i class="fa-brands fa-discord"></i></a>
+                    </div>   
+                    <div class="mb-3">
+                        <a href="https://www.instagram.com/" target="_blank" class="text-secondary h4"><i class="fa-brands fa-instagram"></i></a>    
+                    </div>          
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 p-3">
+                    <p class="h4 text-center">© 2022 SneakerT, Inc. Todos los derechos reservados.</p>                
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 p-3">
+                    <p class="h4">ACERCA DE SNEAKERT</p>
+                    <div class=" mb-3">                       
+                        <a href="pages/noticias.html" class="text-decoration-none text-secondary">Noticias</a>
+                    </div> 
+                    <div class=" mb-3">
+                        <a href="pages/nosotros.html" class="text-decoration-none text-secondary">Nosotros</a>
+                    </div> 
+                    <div class=" mb-3">
+                        <a href="pages/ayuda.html" class="text-decoration-none text-secondary">Ayuda</a> 
+                    </div>         
+
+                    
+                </div>
+            </div>
+        </div>
 
     </footer>
     
