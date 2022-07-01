@@ -292,14 +292,12 @@ blanco 255, 255, 255
 }
 
 
-
 .noticias__recientes{
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin-top: 120px;
-    margin-left: 90px;  
+   margin-top: 80px;
     grid-area: noticias__recientes;
 }
 
@@ -311,7 +309,6 @@ blanco 255, 255, 255
 }
 
 .noticias__recientes img{
-   width: 20vw;
    height: 20vh;
    margin-bottom: 5px;
    margin-top: 20px;
@@ -336,7 +333,7 @@ blanco 255, 255, 255
     margin-top: 15px;
     padding-left: 10px;
     border: solid black 3px;
-    height: 60vh;
+    height: 70vh;
 }
 
 .sneakers__filtro div{
@@ -499,7 +496,7 @@ blanco 255, 255, 255
     .ayuda{
         display: flex;
         border: solid black 3px;
-        height: 15vh;
+        height: 20vh;
     }
     
     .ayuda h5{
@@ -593,7 +590,7 @@ blanco 255, 255, 255
     .noticias__img2{
         display: flex;
         width: 55vw;
-        height: 30vh;
+        height: 50vh;
         margin-left: 20px;
     }
     
@@ -610,7 +607,9 @@ blanco 255, 255, 255
         margin-bottom: 20px;
     }
     
-    
+    .card-query{
+        margin-left: 50px;
+    }
     
     .noticias__recientes{
         display: flex;
@@ -623,17 +622,17 @@ blanco 255, 255, 255
     }
     
     .noticias__recientes h4{
-        font-size: 33px;
+        font-size: 25px;
         margin-bottom: 30px;
-        text-align: start;
+        text-align: center;
+        margin-left:50px ;
         
     }
     
     .noticias__recientes img{
         object-fit: contain;
-       width: 60vw;
        height: 30vh;
-       margin-bottom: 5px;
+       margin-bottom: 20px;
        margin-top: 10px;
     }
     

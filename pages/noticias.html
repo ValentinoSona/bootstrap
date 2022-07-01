@@ -59,56 +59,59 @@
         </section>
         
         <section class="noticias__recientes">
-            <h4>PUBLICACIONES RECIENTES</h4>
-            <article>
-                <img src="../multimedia/jake-weirick-pu-PgXMI30I-unsplash.jpg" alt="publicacion reciente 1">
-                <h6>subtitulo</h6>
-            </article>
-            <article>
-                <img src="../multimedia/Hello-Im-sneaker-head-svg-Afro-woman-by-svgyeahyouknowme-580x387.png" alt="publicacion reciente 2">
-                <h6>subtitulo</h6>
-            </article>
+            <h4 >PUBLICACIONES RECIENTES</h4>
+            <div class="card card-query" style="width: 20rem;">
+                <img src="../multimedia/jake-weirick-pu-PgXMI30I-unsplash.jpg" alt="publicacion reciente 1 card-img-top">
+                <h6 class="card-text mb-4">subtitulo</h6>
+            </div>
+            <div class="card mt-5 mb-5 card-query" style="width: 20rem;">
+                <img src="../multimedia/Hello-Im-sneaker-head-svg-Afro-woman-by-svgyeahyouknowme-580x387.png" alt="publicacion reciente 2 card-img-top">
+                <h6 class="card-text mb-4">subtitulo</h6>
+            </div>
         </section>
     </div>
 
-    <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+    <footer class="footer ">
 
-    <footer class="footer">
-        <nav class="footer__nav">
-            <div class="footer__contactanos">
-                <h4 class="contactanos">Contactanos</h4>
-                <a href="https://twitter.com/home" target="_blank" class="icono"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://discord.com/" target="_blank" class="icono"><i class="fa-brands fa-discord"></i></a>
-                <a href="https://www.instagram.com/" target="_blank" class="icono"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <div class="footer_copy">
-                <p class="copy">© 2022 SneakerT, Inc. Todos los derechos reservados.</p>
-            </div>
-            <div>
-                <ul class="footer_list">
-                    <li>
-                        <h4 class="footer__acerca">ACERCA DE SNEAKERT</h4>
-                    </li>
-                    <li class="footer__item">
-                        <a href="noticias.html">Noticias</a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="ayuda.html">Ayuda</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+          <div class="row p-5 bg-dark text-white d-flex justify-content-between">
+              <div class="col-xs-12 col-md-6 col-lg-3 m-contactanos">
+                  <p class="h3 mb-3">Contactanos</p>   
+                  <div class="mb-3">
+                      <a href="https://twitter.com/home" target="_blank" class="text-secondary h4"><i class="fa-brands fa-twitter"></i></a>
+                  </div>    
+                  <div class="mb-3">
+                      <a href="https://discord.com/" target="_blank" class="text-secondary h4"><i class="fa-brands fa-discord"></i></a>
+                  </div>   
+                  <div class="mb-3">
+                      <a href="https://www.instagram.com/" target="_blank" class="text-secondary h4"><i class="fa-brands fa-instagram"></i></a>    
+                  </div>          
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-3 p-3">
+                  <p class="h4 text-center">© 2022 SneakerT, Inc. Todos los derechos reservados.</p>                
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-3 p-3">
+                  <p class="h4">ACERCA DE SNEAKERT</p>
+                  <div class=" mb-3">                       
+                      <a href="noticias.html" class="text-decoration-none text-secondary">Noticias</a>
+                  </div> 
+                  <div class=" mb-3">
+                      <a href="nosotros.html" class="text-decoration-none text-secondary">Nosotros</a>
+                  </div> 
+                  <div class=" mb-3">
+                      <a href="ayuda.html" class="text-decoration-none text-secondary">Ayuda</a> 
+                  </div>         
 
-        </nav>
-        
-        <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+                  
+              </div>
+          </div>
+      </div>
 
-    </footer>
+  </footer>
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     
 </body>
 </html>
