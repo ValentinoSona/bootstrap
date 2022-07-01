@@ -135,8 +135,6 @@ blanco 255, 255, 255
     padding-top: 40px;
     padding-bottom: 10px;
     width: 200px;
-    
-    
 }
 
 .ultimos__subtitulo{
@@ -146,45 +144,11 @@ blanco 255, 255, 255
 }
 
 /* footer */
-.footer__nav{
- display: flex;
- justify-content: space-between;
- align-items: center;
- height: 15vh;
+.m-contactanos{
+    margin: 10px 0 0 50px;
+    z-index: 10;
 }
 
-
-.contactanos{
-    padding: 0 0 10px 50px;
-    color: white;
-    
-}
-
-.icono{
-    color: rgb(255, 0, 0);
-    padding: 0 0 30px 20px;
-    font-size: 30px;
-    
-    
-}
-
-.copy{
-   color: white;
-}
-
-.footer_list{
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding-right: 30px;
-    color: white;
-   
-}
-
-
-.footer__item a{
-    color: rgb(255, 0, 0);
-}
 /* AYUDA */
 
 .ayuda{
@@ -413,11 +377,12 @@ blanco 255, 255, 255
     /* footer and header */
     .footer{
         font-size: 10px;
+        padding-top: 10px;
     }
 
     .contactanos{
-        padding-right: 10px;
-        margin-right: 10px;
+        padding-right: 15px;
+        margin-right: 15px;
     }
 
     .cabecera{
@@ -463,9 +428,11 @@ blanco 255, 255, 255
     }
     
     .articulo, .articulo2{
+        font-size: 9px;
         display: flex;
         padding: 0 0 20px 40px;
         z-index: 1;
+        height: 20vh;
     }
     
     .seguir{
